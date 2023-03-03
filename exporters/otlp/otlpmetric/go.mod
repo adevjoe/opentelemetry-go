@@ -3,6 +3,7 @@ module go.opentelemetry.io/otel/exporters/otlp/otlpmetric
 go 1.16
 
 require (
+	github.com/golang/protobuf v1.5.2
 	github.com/google/go-cmp v0.5.7
 	github.com/stretchr/testify v1.7.1
 	go.opentelemetry.io/otel v1.7.0
@@ -14,6 +15,8 @@ require (
 	google.golang.org/grpc v1.46.0
 	google.golang.org/protobuf v1.28.0
 )
+
+replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
 
 replace go.opentelemetry.io/otel => ../../..
 
