@@ -16,6 +16,8 @@ require (
 	google.golang.org/protobuf v1.28.0
 )
 
+replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
+
 replace go.opentelemetry.io/otel => ../../../..
 
 replace go.opentelemetry.io/otel/sdk => ../../../../sdk

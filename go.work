@@ -1,3 +1,5 @@
 go 1.17
 
 use ./exporters/otlp/otlpmetric
+
+use ./exporters/otlp/otlpmetric/otlpmetricgrpc
